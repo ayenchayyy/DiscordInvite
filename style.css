@@ -38,7 +38,7 @@ body {
 #inviteContainer .acceptContainer:before {
   content: "";
   background-size: cover !important;
-  box-shadow: inset 0 0 0 3000px rgba(40, 43, 48, 1);
+  box-shadow: inset 0 0 0 3000px rgba(241, 58, 217, 0.69);
   filter: blur(10px);
   position: absolute;
   width: 150%;
@@ -148,7 +148,7 @@ body {
 .acceptBtn {
   width: 100%;
   box-sizing: border-box;
-  background: #7289da;
+  background:rgb(99, 27, 99);
   border: none;
   color: #fff;
   padding: 15px 0;
