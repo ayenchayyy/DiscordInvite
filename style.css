@@ -38,8 +38,8 @@ body {
 #inviteContainer .acceptContainer:before {
   content: "";
   background-size: cover !important;
-  box-shadow: inset 0 0 0 3000px rgba(241, 58, 217, 0.69);
-  filter: blur(10px);
+  box-shadow: inset 0 0 0 3000px rgba(27, 10, 25, 0.69);
+  filter: blur(100px);
   position: absolute;
   width: 150%;
   height: 150%;
@@ -129,7 +129,7 @@ body {
 
 .logoContainer .text {
   padding: 25px 0 10px 0;
-  color: #202225;
+  color:rgb(255, 255, 255);
   z-index: 1;
 }
 
@@ -142,7 +142,7 @@ body {
   width: 150%;
   height: 150%;
   filter: blur(10px);
-  box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 0 0 3000px rgba(121, 9, 117, 0.9);
 }
 
 .acceptBtn {
@@ -162,7 +162,7 @@ body {
 }
 
 .acceptBtn:hover {
-  background: #6b7fc5;
+  background:rgb(148, 3, 136);
 }
 
 * {
@@ -655,7 +655,7 @@ main.main .overlay .link {
   height: 50%;
   bottom: 0;
   left: 0;
-  background-color: #404eed;
+  background-color:rgb(74, 80, 139);
   z-index: 1;
   display: block;
   position: absolute;
@@ -706,7 +706,7 @@ main.main .overlay .link {
 }
 
 .card .card--content .name span {
-  color: #2c2f33;
+  color:rgb(255, 255, 255);
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 10px;
